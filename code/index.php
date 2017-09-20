@@ -1,2 +1,4 @@
 <?php
-echo 'test';
+require('./vendor/autoload.php');
+
+echo 'hello world';
