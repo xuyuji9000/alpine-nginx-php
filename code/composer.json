@@ -6,5 +6,7 @@
             "email": "karl.yogi.xu@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "slim/slim": "^3.0"
+    }
 }
