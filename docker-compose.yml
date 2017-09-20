@@ -12,3 +12,9 @@ services:
         build: ./docker/php/
         volumes:
             - ./code:/code
+
+    composer:
+        build: ./docker/composer
+        volumes:
+            - ./code:/app
+        command: install

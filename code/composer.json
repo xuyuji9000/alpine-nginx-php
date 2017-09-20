@@ -1,0 +1,10 @@
+{
+    "name": "yogiman/hello-world",
+    "authors": [
+        {
+            "name": "Karl Xu",
+            "email": "karl.yogi.xu@gmail.com"
+        }
+    ],
+    "require": {}
+}
