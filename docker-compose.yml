@@ -13,8 +13,6 @@ services:
 
     php:
         image: php:7.1.8-fpm-alpine
-        depends_on:
-            - composer
         volumes:
             - ./code:/code
 
