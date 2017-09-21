@@ -18,7 +18,7 @@ services:
             - ./code:/code
 
     composer:
-        build: ./docker/composer
+        image: composer:1.5.2
         volumes:
             - ./code:/app
         command: install
