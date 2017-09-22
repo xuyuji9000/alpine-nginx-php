@@ -21,3 +21,6 @@ services:
         volumes:
             - ./code:/app
         command: install
+        deploy:
+            restart_policy:
+                condition: none
