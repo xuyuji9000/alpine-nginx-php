@@ -6,8 +6,8 @@ access-composer:
 		composer:1.5.2 \
 		bash
 
-compose-up:
-	docker-compose up --build
+compose:
+	docker-compose up --build -d
 
 deploy:
 	docker stack deploy -c docker-compose.yml $(STACK_NAME)
