@@ -6,8 +6,11 @@ access-composer:
 		composer:1.5.2 \
 		bash
 
-compose:
+compose-up:
 	docker-compose up --build -d
+
+compose-down:
+	docker-compose down
 
 viz:
 	docker service create \
