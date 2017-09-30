@@ -7,5 +7,6 @@ $app->get('/', function($request, $response, $args){
     $response->getBody()->write('This is Home!');
     return $response;
 });
+$app->get('/index', App\Controllers\IndexController::class.':home');
 $app->get('/uploadimage/view', App\Controllers\UploadImageController::class.':view');
 $app->post('/uploadimage/upload', App\Controllers\UploadImageController::class.':upload');
