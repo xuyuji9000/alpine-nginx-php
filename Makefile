@@ -9,10 +9,10 @@ access-composer:
 compose:
 	docker-compose up --build -d
 
-deploy:
+stack-deploy:
 	docker stack deploy -c docker-compose.yml $(STACK_NAME)
 
-rm-stack:
+stack-rm:
 	docker stack rm $(STACK_NAME)
 
 viz:
