@@ -12,7 +12,7 @@ services:
             - ./code:/app
 
     php:
-        build: ./docker/php
+        build: ./code
         volumes:
             - ./code:/app
 
