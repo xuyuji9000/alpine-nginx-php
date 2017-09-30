@@ -24,3 +24,8 @@ services:
         deploy:
             restart_policy:
                 condition: none
+
+    db:
+        image: mysql:5.7
+        environment:
+            MYSQL_ROOT_PASSWORD: example
