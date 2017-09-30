@@ -9,12 +9,6 @@ access-composer:
 compose:
 	docker-compose up --build -d
 
-stack-deploy:
-	docker stack deploy -c docker-compose.yml $(STACK_NAME)
-
-stack-rm:
-	docker stack rm $(STACK_NAME)
-
 viz:
 	docker service create \
   		--name=viz \
