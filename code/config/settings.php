@@ -8,7 +8,7 @@ return [
         'db' => [
             'driver'    => getenv('DRIVER'),
             'host'      => getenv('HOST'),
-            'database'  => __DIR__.'/../database/database.sqlite',
+            'database'  => getenv('DATABASE'),
             'username'  => getenv('USERNAME'),
             'password'  => getenv('PASSWORD'),
             'collation' => getenv('COLLATION'),
