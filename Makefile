@@ -2,7 +2,7 @@ PROJECT_PATH=${PWD}
 STACK_NAME=web-demo
 access-composer:
 	docker run -it --rm \
-		-v $(PROJECT_PATH)/code:/app \
+		-v $(PROJECT_PATH)/back:/app \
 		composer:1.5.2 \
 		bash
 
